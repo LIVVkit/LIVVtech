@@ -1,0 +1,57 @@
+
+html {
+    -webkit-text-size-adjust:100%;
+    padding-bottom:4em
+}
+
+body {
+    font-family:sans-serif;
+    line-height:1.5em;
+    max-width:40em;
+    padding:0 2%;
+    margin:auto
+}
+
+.text-input {
+    width:96%;
+    display:block;
+    padding:.5em 1%;
+    margin-bottom:1.5em;
+    font-size:1em
+}
+
+fieldset {
+    margin-bottom:1.5em
+}
+
+textarea {
+    height:10em
+}
+
+.bold {
+    font-weight:bold
+}
+
+.bad {
+    color:red
+}
+
+.good {
+    color:green
+}
+
+.maybe {
+    color:yellow
+}
+
+.footer {
+    text-align:right
+}
+
+.centered {
+    text-align:center
+}
+
+.hide {
+    display:none
+}

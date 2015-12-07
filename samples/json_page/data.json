@@ -1,0 +1,52 @@
+var summary = {
+    "LIVV" : {
+        "Username" : "I. C. Sheet",
+        "Hostname" : "Brick",
+        "Data" : "11:11:11 11/11/11",
+
+        "Verification" : {
+            "Summary" : {
+                "ISMIP" : {
+                    "A80" : {
+                        "BitForBit" : [3, 4],
+                        "ConfigMatch" : [1, 1],
+                        "StdOutParsed" : 2
+                    },
+                    "C80" : {
+                        "BitForBit" : [2, 4],
+                        "ConfigMatch" : [1, 1],
+                        "StdOutParsed" : 2
+                    }
+                },
+                "Dome" : {
+                    "0031" : {
+                        "BitForBit" : [2, 2],
+                        "ConfigMatch" : [1,1],
+                        "StdOutParsed" : 4
+                    }
+                }
+            }
+        },
+
+        "Validation" : {
+            "Summary" : {
+                "Greenland" : {
+                    "Validations" : ["SMB", "Percent_coverage", "Flow_velocity"],
+                    "Data_dir" : "./validations/Greenland",
+                    "SMB" : {
+                        "Plots_generated" : ["Fig1.png", "Fig2.png"],
+                        "Table_data" : "greenland_smb.csv"
+                    },
+                    "Percent_coverage" : {
+                        "Plots_generated" : ["Fig1.png", "Fig3.png"],
+                        "Table_data" : "greenland_pc.csv"
+                    },
+                    "Flow_velocity" : {
+                        "Plots_generated" : ["Fig2.png"],
+                        "Table_data" : "greenland_fv.csv"
+                    }
+                }
+            }
+        }
+    }
+}
