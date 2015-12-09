@@ -1,11 +1,22 @@
-.Verification {
+.Verification, .Validation {
     margin-left: 10px;
 }
 
-.Verification h1{
+.Verification h1, .Validation h1{
     color: #3399FF;
 }
 
-Validation {
-    border : 1px solid green;
+#validationSummary {
+    width: 100%;
+    border: none;
+}
+
+#validationSummary td {
+    border: none;
+}
+
+.fakeHeader {
+    background-color: #bbbbbb;
+    color: #ffffff;
+    font-weight: bold;
 }

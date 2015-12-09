@@ -45,6 +45,9 @@ var summary = {
                         "Plots_generated" : ["Fig2.png"],
                         "Table_data" : "greenland_fv.csv"
                     }
+                },
+                "Antarctica" : {
+                    "Validations" : ["This", "That"]
                 }
             }
         }

@@ -7,9 +7,28 @@ html {
 body {
     font-family:sans-serif;
     line-height:1.5em;
-    max-width:40em;
+    max-width:50em;
     padding:0 2%;
     margin:auto
+}
+
+table {
+    width: auto;
+    padding: 10px;    
+    border-collapse: collapse;
+}
+
+th {
+    color: #ffffff;
+    background-color: #bbbbbb;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #bbbbbb;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
 }
 
 .text-input {
